@@ -112,3 +112,8 @@ margin-top: 10px;
   margin-bottom: 10px;
 
 }
+.about p:hover,.about h2:hover{
+  color: blueviolet;
+  text-decoration: underline purple;
+  transition: 0.5s;
+}
