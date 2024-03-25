@@ -1,0 +1,105 @@
+*{
+ margin: 0;
+};
+nav {
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: hite;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+ cursor: pointer;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: underline purple;
+  transition: 0.5s;
+}
+
+#logo{
+  display: flex;
+  height:58px;
+  width:90px;
+  margin-left: 1px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.logo:hover{
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.search-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar{
+  width: 220px;
+  height: 40px;
+  padding-left: 7px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: aliceblue;
+  cursor: pointer;
+}
+.search-bar:hover{
+ border-radius: 0px;
+transition: 0.5s;
+}
+.img1-container,.container-img2,.bat-img3,.bat-img4,.bat-img5{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border: 3px 3px solid black;
+  cursor: pointer;
+
+}
+.p{
+  font-size: 21px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 30px;
+  left: 45px;
+  margin-top: 20px;
+}
+
+.bat-img{
+  height: 190px;
+  width:180px ;
+  margin: 90px;
+  border: 2px 3px solid black;
+}
+.bat-img:hover{
+  border-radius: 7px;
+  transition-duration: 0.4s;
+}
+
+.bat-price{
+  position: absolute;
+  bottom: 13px;
+  background-color: red; 
+ left: 45px;
+}
+.about{
+  background-color: black;
+margin-top: 10px;
+
+}
+
+.about p,.about h2{
+  color:white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
