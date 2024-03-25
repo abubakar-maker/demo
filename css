@@ -1,5 +1,6 @@
 *{
  margin: 0;
+
 };
 nav {
   overflow: hidden;
@@ -53,7 +54,7 @@ nav a:hover {
  border-radius: 0px;
 transition: 0.5s;
 }
-.img1-container,.container-img2,.bat-img3,.bat-img4,.bat-img5{
+.container-img{
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -71,11 +72,18 @@ transition: 0.5s;
   margin-top: 20px;
 }
 
-.bat-img{
+#bat-img,#bat-img5,#bat-img2,#bat-img4,#bat-img3{
   height: 190px;
   width:180px ;
   margin: 90px;
   border: 2px 3px solid black;
+
+}
+#bat-img:hover,#bat-img5:hover,#bat-img2:hover,#bat-img4:hover,#bat-img3:hover{
+  opacity: 0.8;
+  transition: 0.5s;
+  color: brown;
+  
 }
 .bat-img:hover{
   border-radius: 7px;
@@ -85,7 +93,8 @@ transition: 0.5s;
 .bat-price{
   position: absolute;
   bottom: 13px;
-  background-color: red; 
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
  left: 45px;
 }
 .about{
