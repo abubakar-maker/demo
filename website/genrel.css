@@ -1,0 +1,144 @@
+*{
+ margin: 0;
+ background-image: url(img/babar-azam-batting-form-cmdbrbm0kze7rb5m.jpg);
+    background-size: cover; /* Ensures the background image covers the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; 
+    background-attachment: fixed;
+    font-weight: bold;
+  color: rgb(255, 255, 255);
+    background-color: none;
+
+}
+nav {
+  overflow: hidden;
+  
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: hite;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+ cursor: pointer;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: underline purple;
+  transition: 0.5s;
+}
+nav li{
+  color: rgb(255, 255, 255);
+}
+
+#logo{
+  display: flex;
+  height:58px;
+  width:90px;
+  margin-left: 1px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.logo:hover{
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.search-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar{
+  width: 220px;
+  height: 40px;
+  padding-left: 7px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: aliceblue;
+  cursor: pointer;
+}
+.search-bar:hover{
+ border-radius: 0px;
+transition: 0.5s;
+}
+.magnifying-glass-solid{
+  width: 25px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 2px;
+  margin-bottom: 2px;
+
+}
+
+.container-img{
+  display: inline-flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  -ms-flex-item-align: center;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border: 3px 3px solid black;
+  cursor: pointer;
+  
+
+}
+.p{
+  font-size: 21px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 30px;
+  left: 45px;
+  margin-top: 20px;
+}
+
+#bat-img,#bat-img5,#bat-img2,#bat-img4,#bat-img3{
+  height: 190px;
+  width:180px ;
+  margin: 90px;
+  border: 2px 3px solid black;
+  background-color: black;
+}
+#bat-img:hover,#bat-img5:hover,#bat-img2:hover,#bat-img4:hover,#bat-img3:hover{
+  opacity: 0.8;
+  transition: 0.5s;
+  color: brown;
+  
+}
+.bat-img:hover{
+  border-radius: 7px;
+  transition-duration: 0.4s;
+}
+
+.bat-price{
+  position: absolute;
+  bottom: 13px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+ left: 45px;
+}
+.about{
+  background-color: rgb(245, 0, 0);
+margin-top: 10px;
+
+}
+
+.about p,.about h2{
+  color:white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+.about p:hover,.about h2:hover{
+  color: blueviolet;
+  text-decoration: underline purple;
+  transition: 0.5s;
+}

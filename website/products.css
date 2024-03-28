@@ -1,0 +1,46 @@
+.container-img{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border: 3px 3px solid black;
+    cursor: pointer;
+  
+  }
+  .p{
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px;
+    left: 45px;
+    margin-top: 20px;
+  }
+  
+  #bat-img,#bat-img5,#bat-img2,#bat-img4,#bat-img3{
+    height: 190px;
+    width:180px ;
+    margin: 90px;
+    border: 2px 3px solid black;
+  
+  }
+  #bat-img:hover,#bat-img5:hover,#bat-img2:hover,#bat-img4:hover,#bat-img3:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+    color: brown;
+    
+  }
+  .bat-img:hover{
+    border-radius: 7px;
+    transition-duration: 0.4s;
+  }
+  
+  .bat-price{
+    position: absolute;
+    bottom: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   left: 45px;
+  }
+  .MRF{
+    margin-right: 40px;
+  }

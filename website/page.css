@@ -1,0 +1,78 @@
+nav a {
+   float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 20px;
+   text-decoration: none;
+   font-size: 13px;
+   color: black;
+  cursor: pointer;
+ }
+ 
+ nav a:hover {
+   color: black;
+   text-decoration: underline purple;
+   transition: 0.5s;
+ }
+ nav {
+   overflow: hidden;
+ }
+ .img-conatainer{
+   display: flex;
+   align-items: start;
+  justify-self: start;
+}
+.bat-pic{
+   margin-top: 34px;
+   height: 100%;
+}
+.p{
+   font-size: 25px;
+   font-weight: bold;
+   margin-top: 30px;
+   display: block;
+}
+.price{
+   margin-left: 10px;
+   margin-top: 50px;
+   font-size: 25px;
+   color: blue;
+   font-weight: bold;
+ 
+
+}
+.btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.add-cart,.buy{
+   margin-right:5px;
+   height: 34px;
+   width: 90px;
+   font-size: 14px;
+   font-weight: bold;
+   background-color: blue;
+   color: #fff;
+   border: 1px 10px solid blue;
+   border-radius: 6px;
+}
+.add-cart:hover,.buy:hover{
+   opacity:0.9;
+   border-radius: 0;
+   transition: 0.3s;
+
+}
+#logo{
+  display: flex;
+  height:58px;
+  width:90px;
+  margin-left: 1px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.logo:hover{
+  border-radius: 10px;
+  transition: 0.4s;
+}
